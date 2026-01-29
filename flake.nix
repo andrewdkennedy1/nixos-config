@@ -24,5 +24,17 @@
         home-manager.nixosModules.home-manager
       ];
     };
+
+    nixosConfigurations.desktop = nixpkgs.lib.nixosSystem {
+      inherit system;
+      modules = [
+        ./hosts/desktop.nix
+        ./modules/base.nix
+        ./modules/users.nix
+        ./modules/hyprland.nix
+        ./modules/nvidia.nix
+        home-manager.nixosModules.home-manager
+      ];
+    };
   };
 }
