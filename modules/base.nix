@@ -27,5 +27,6 @@
     openvpn
     networkmanager-openvpn
     antigravity-fhs
+    (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
   ];
 }

@@ -25,6 +25,7 @@
     hyprpaper
     brightnessctl
     foot
+    thunar
   ];
 
   hardware.opengl = {
