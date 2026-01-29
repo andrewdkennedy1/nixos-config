@@ -28,5 +28,16 @@
     networkmanager-openvpn
     antigravity-fhs
     (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    anydesk
+    vlc
+    firefox
+    wl-clipboard
+    grim
+    slurp
+    pavucontrol
+    unzip
+    zip
+    ripgrep
+    btop
   ];
 }
